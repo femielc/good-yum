@@ -1,0 +1,10 @@
+-- good yum--
+
+good yum adalah sebuah website resep makanan sehat dari berbagai masyarakat di Indonesia, agar masyarakat 
+Indonesia yang memiliki kemauan untuk menjaga pola makan dan memulai makan makanan yang sehat dapat 
+mewujudkannya baik yang muda maupun yang sudah berumur. 
+
+create by Femi Elice
+use: HTML, CSS, dan Swiperjs
+image from: Unplash
+

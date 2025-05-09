@@ -1,0 +1,600 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---------*/
+
+html {
+    scroll-behavior: smooth;
+    /* overflow: hidden; */
+}
+
+#landingPage{
+	background-image: linear-gradient(145deg, rgb(239, 129, 3), rgb(107, 5, 5));
+	width: auto;
+    height: auto;
+}
+
+.topnav{
+    width: auto;
+    padding-top: 7px;
+    margin-right: 10px;
+	/* overflow: hidden; */
+}
+
+.topnav a{
+    float: right;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    padding: 12px 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    color: darkred;
+}
+
+.dropdown{
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown-button{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding-top: 10px;
+    background-color: transparent;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(190, 159, 95);
+    border-radius: 1%;
+    width: 170px;
+    height: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 10px 2px 3px;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.dropdown-content a:hover {
+    color: darkred;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.hero #img1{
+	z-index: -9999px;
+	position: absolute;
+	width: 700px;
+	height: 520px;
+}
+
+.hero h1{
+	width: 800px;
+    height: 150px;
+	font-family: cursive;
+	font-size: 96px;
+	color: white;
+	padding-right: 70px;
+	padding-top: 70px;
+	margin-left: 330px;
+	border-radius: 40% 25% 50% 30%;
+}
+
+.hero h3{
+	font-size: 20px;
+	color: white;
+	margin-left: 330px;
+	margin-top: 65px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.collect{
+	overflow: auto;
+    width: 800px;
+    margin-left: 320px;
+} 
+
+.collect .collect-recipe{
+    width: 140px;
+    height: auto;
+    margin-left: 13px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 2%;
+    background-color: #f9f8f8;
+    float: left;
+	margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.collect-recipe img{
+    width: 120px;
+    height: 120px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.collect-recipe a{
+    padding: 5px;
+    font-size: 15px;
+    color: black;
+    font-weight: solid;
+    text-decoration: none;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+#homePage{
+    background-color: rgb(223, 207, 178); 
+}
+
+.new{
+    overflow: hidden;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    max-width: 1200px;
+    padding-top: 5px;
+
+}
+
+.new h2{
+    margin-top: 7px;
+    margin-bottom: 8px;
+    font-size: 25px;
+	color: darkred;
+	border-width: 6px;
+	font-weight: bold;
+	-webkit-text-stroke: 0.5px black;
+}
+
+.new p{
+    margin-bottom: 10px;
+	color: rgb(91, 91, 91);
+	font-weight: bold;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.btnback-new{
+    float: right;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 4%;
+}
+
+.btnback-new a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(84, 84, 84);
+}
+
+.btnback-new a:hover{
+    padding: 10px;
+    color: white;
+    background-color: darkred;
+}
+
+
+.slider-wrapper{
+    overflow: hidden;
+    position: relative;
+    max-width: 1300px;
+    margin: 0 5px  0 5px;
+}
+
+.card-list .card-item{
+    user-select: none;
+    display: inline;
+    color: black;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.card-item img{
+    float: left;
+    padding-right: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.card-item h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card-item p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: black;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-item a{
+    color:darkred;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.slider-wrapper .swiper-pagination-bullet{
+    background-color: white;
+    margin-top: 100px;
+    height: 15px;
+    width: 15px;
+}
+
+.slider-wrapper .swiper-slide-button{
+    height: 2px;
+    width: 2px;
+    color: white;
+    opacity: 40%;
+    margin-top: 3px;
+    transition: 0.2s ease;
+}
+
+.slider-wrapper .swiper-slide-button:hover{
+    color: darkred;
+}
+
+@media (max-width: 768px){
+    .slider-wrapper{
+        margin: 0 10px 40px;
+    }
+
+    .slider-wrapper .swiper-slide-button{
+        display: none;
+    }
+}
+
+.viral{
+    overflow: auto;
+    width: auto;
+    /* padding-top: 10px; */
+}
+
+.viral h2{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 25px;
+	color: darkred;
+	border-width: 6px;
+	font-weight: bold;
+	-webkit-text-stroke: 0.5px black;
+}
+
+.viral p{
+    margin-left: 35px;
+    margin-top: 5px;
+	color: rgb(91, 91, 91);
+	font-weight: bold;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.viral a{
+    text-decoration: none;
+    color: dimgray;
+    font-weight: bold;
+    -webkit-text-stroke: 0;
+    font-size: 15px;
+}
+
+.viral-recipe{
+    overflow: auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 35px;
+	margin-bottom: 10px;
+    width: 350px;
+    border-radius: 2%;
+}
+
+.viral-recipe img{
+    float: left;
+    width:100px; 
+    height:100px;
+    padding-right: 10px;
+}
+
+.viral-recipe h3{
+    font-size: 21px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: black;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.viral-recipe p{
+    margin-bottom: 5px;
+	padding-top: 3px;
+	color: black;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.viral-recipe a{
+    font-size: 15px;
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+}
+
+#homePage2{
+    background-color: rgb(223, 207, 178); 
+}
+
+.btnback-breakfast{
+    float: right;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 45px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 4%;
+}
+
+.btnback-breakfast a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(84, 84, 84);
+}
+
+.btnback-breakfast a:hover{
+    padding: 10px;
+    color: white;
+    background-color: darkred;
+}
+
+
+.breakfast{
+    overflow: auto;
+    width: auto;
+    padding-top: 5px;
+}
+
+.breakfast h2{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 25px;
+	color: darkred;
+	border-width: 6px;
+	font-weight: bold;
+	-webkit-text-stroke: 0.5px black;
+}
+
+.breakfast p{
+    margin-left: 35px;
+	color: rgb(91, 91, 91);
+	font-weight: bold;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.breakfast a{
+    text-decoration: none;
+    color: dimgray;
+    font-weight: bold;
+    -webkit-text-stroke: 0;
+    font-size: 15px;
+}
+
+.breakfast a:hover{
+    color:darkred;
+}
+
+.breakfast-recipe{
+    overflow: auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 35px;
+	margin-bottom: 10px;
+    width: 350px;
+    border-radius: 2%;
+}
+
+.breakfast-recipe img{
+    float: left;
+    width:100px; 
+    height:100px;
+    padding-right: 10px;
+}
+
+.breakfast-recipe h3{
+    font-size: 21px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: black;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.breakfast-recipe p{
+    margin-bottom: 5px;
+	padding-top: 3px;
+	color: black;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.breakfast-recipe a{
+    font-size: 15px;
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+}
+
+.lunch-dinner{
+    overflow: auto;
+    width: auto;
+    margin-top: 5px;
+    padding-bottom: 20px;
+}
+
+.lunch-dinner h2{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 25px;
+	color: darkred;
+	border-width: 6px;
+	font-weight: bold;
+	-webkit-text-stroke: 0.5px black;
+}
+
+.lunch-dinner p{
+    margin-left: 35px;
+	color: rgb(91, 91, 91);
+	font-weight: bold;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.lunch-dinner a{
+    text-decoration: none;
+    color: dimgray;
+    font-weight: bold;
+    -webkit-text-stroke: 0;
+    font-size: 15px;
+}
+
+.lunch-dinner a:hover{
+    color:darkred;
+}
+
+
+.lunchDinner-recipe{
+    overflow: auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 35px;
+	margin-bottom: 10px;
+    width: 350px;
+    border-radius: 2%;
+}
+
+.lunchDinner-recipe img{
+    float: left;
+    width:100px; 
+    height:100px;
+    padding-right: 10px;
+}
+
+.lunchDinner-recipe h3{
+    font-size: 21px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: black;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.lunchDinner-recipe p{
+    margin-bottom: 5px;
+	padding-top: 3px;
+	color: black;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.lunchDinner-recipe a{
+    font-size: 15px;
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+}
+
+.footer{
+    width: auto;
+    height: 100px;
+    background-image: linear-gradient(145deg, rgb(239, 129, 3), rgb(107, 5, 5));
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.footer h2{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+.footer h3{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}

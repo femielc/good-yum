@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(223, 207, 178);
+}
+
+.btnback-lunchDinner{
+    float: right;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 45px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 4%;
+}
+
+.btnback-lunchDinner a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(84, 84, 84);
+}
+
+.btnback-lunchDinner a:hover{
+    padding: 10px;
+    color: white;
+    background-color: darkred;
+}
+
+.lunch-dinner h2{
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 35px;
+	color: darkred;
+	border-width: 6px;
+	font-weight: bold;
+	-webkit-text-stroke: 0.5px black;
+}
+
+.lunch-dinner p{
+    margin-left: 35px;
+	color: rgb(91, 91, 91);
+	font-weight: bold;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.lunch-dinner a{
+    text-decoration: none;
+    color: dimgray;
+    font-weight: bold;
+    -webkit-text-stroke: 0;
+    font-size: 15px;
+}
+
+.lunchDinner-recipe{
+    overflow: auto;
+    float: left;
+    margin-left: 35px;
+	margin-bottom: 10px;
+    width: 350px;
+    border-radius: 2%;
+}
+
+.lunchDinner-recipe img{
+    float: left;
+    width:100px; 
+    height:100px;
+    padding-right: 10px;
+}
+
+.lunchDinner-recipe h3{
+    font-size: 21px;
+    margin-top: 2px;
+    color: black;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.lunchDinner-recipe p{
+    margin-top: -15px;
+    margin-bottom: 3px;
+	color: black;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.lunchDinner-recipe a{
+    font-size: 15px;
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+}
